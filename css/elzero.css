@@ -1,3 +1,8 @@
+:root {
+	--main-color: #2196f3;
+	--main-color-alt: #1787e0;
+}
+
 body {
 	font-family: "Cairo", sans-serif;
 }

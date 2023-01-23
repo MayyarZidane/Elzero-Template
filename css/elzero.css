@@ -55,6 +55,7 @@ ul {
 	border: 3px solid black;
 	position: relative;
 	transition: var(--main-transition);
+	z-index: 100;
 }
 
 .main-title::before {

@@ -610,6 +610,12 @@ header .mega-menu .mega-links li a i {
 	gap: var(--main-grid-gap);
 }
 
+@media (max-width: 767px) {
+	.features .container {
+		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	}
+}
+
 .features .image {
 	position: relative;
 }

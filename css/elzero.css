@@ -524,6 +524,12 @@ header .mega-menu .mega-links li a i {
 	gap: var(--main-grid-gap);
 }
 
+@media (max-width: 767px) {
+	.gallery .container {
+		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	}
+}
+
 .gallery .box {
 	padding: 20px;
 	background-color: white;
@@ -939,7 +945,7 @@ header .mega-menu .mega-links li a i {
 	.members .box .data .social a {
 		margin-bottom: 0px;
 	}
-	
+
 	.members .box .data .social a:not(:first-of-type) {
 		margin-left: 16px;
 	}

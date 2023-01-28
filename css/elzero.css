@@ -146,6 +146,8 @@ header .container {
 @media (max-width: 767px) {
 	header .container {
 		justify-content: center;
+		align-items: center;
+		flex-direction: column;
 	}
 }
 
@@ -192,7 +194,7 @@ header .links > li > a {
 @media (max-width: 767px) {
 	header .links > li > a {
 		height: 35px;
-		padding: 10px;
+		padding: 0px 10px;
 		font-size: 14px;
 	}
 }

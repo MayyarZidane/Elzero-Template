@@ -1575,6 +1575,7 @@ header .mega-menu .mega-links li a i {
 	border-style: solid;
 	border-color: transparent transparent white transparent;
 	z-index: 100;
+	transition: var(--main-transition);
 }
 
 .pricing .box:hover .label::after {

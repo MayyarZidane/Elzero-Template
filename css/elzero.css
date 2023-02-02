@@ -453,7 +453,7 @@ header .mega-menu .mega-links li a i {
 .articles .container {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-	gap: 20px;
+	gap: var(--main-grid-gap);
 }
 
 .articles .box {

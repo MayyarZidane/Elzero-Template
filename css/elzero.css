@@ -1935,3 +1935,148 @@ header .mega-menu .mega-links li a i {
 .discount .content form input[type="submit"]:hover {
 	background-color: var(--main-color-alt);
 }
+
+footer {
+	padding-top: 70px;
+	background-color: #191919;
+}
+
+@media (max-width: 776px) {
+	footer {
+		text-align: center;
+	}
+}
+
+footer .container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	gap: var(--main-grid-gap);
+}
+
+footer .box {
+	color: #b9b9b9;
+	padding: 5px;
+}
+
+footer .box h2 {
+	font-size: 48px;
+	margin: 0;
+	color: white;
+}
+
+footer .box p {
+	line-height: 1.6;
+}
+
+footer .social {
+	display: flex;
+	gap: 10px;
+	margin: 15px 0;
+}
+
+@media (max-width: 776px) {
+	footer .social {
+		justify-content: center;
+	}
+}
+
+footer .social li a {
+	display: inline-block;
+	padding: 15px;
+	background-color: #313131;
+	transition: var(--main-transition);
+}
+
+footer .social .facebook:hover {
+	background-color: #1877f2;
+}
+
+footer .social .twitter:hover {
+	background-color: #1da1f2;
+}
+
+footer .social .youtube:hover {
+	background-color: red;
+}
+
+footer .social i {
+	font-size: 18px;
+	color: #b9b9b9;
+}
+
+footer .links li {
+	padding: 15px 0px;
+	font-size: 14px;
+	transition: var(--main-transition);
+}
+
+footer .links li:hover {
+	padding-left: 10px;
+}
+
+footer .links li:not(:last-child) {
+	border-bottom: 1px solid #393939;
+}
+
+footer .links i {
+	color: var(--main-color);
+	margin-right: 5px;
+}
+
+footer .links a {
+	text-decoration: none;
+	color: inherit;
+	transition: var(--main-transition);
+}
+
+footer .links li:hover a {
+	color: white;
+}
+
+footer .line {
+	display: flex;
+	align-items: center;
+	line-height: 1.6;
+}
+
+@media (max-width: 767px) {
+	footer .line {
+		flex-direction: column;
+	}
+}
+
+footer .line:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+footer .line i {
+	color: var(--main-color);
+	font-size: 25px;
+	margin-right: 15px;
+}
+
+@media (max-width: 767px) {
+	footer .line i {
+		margin-right: 0px;
+		margin-bottom: 20px;
+	}
+}
+
+footer .line span {
+	display: block;
+}
+
+footer .box img {
+	width: 80px;
+	margin: 2px;
+	border: 3px solid white;
+	max-width: 100%;
+}
+
+footer .copyright {
+	margin: 0;
+	padding: 25px 0;
+	text-align: center;
+	color: #b3b3b3;
+	border-top: 1px solid #393939;
+}
